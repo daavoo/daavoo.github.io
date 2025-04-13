@@ -1,0 +1,28 @@
+site_name: David de la Iglesia Castro
+site_description: Personal Blog
+site_url: https://daavoo.github.io/
+
+theme:
+  name: material
+  palette:
+    primary: purple
+    accent: indigo
+  logo:
+
+plugins:
+  - blog:
+      blog_dir: .
+  - rss:
+      match_path: docs/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css

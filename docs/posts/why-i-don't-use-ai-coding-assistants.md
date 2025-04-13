@@ -43,7 +43,7 @@ I tried to group those negative effects under 4 different categories:
 The companies behind these systems have managed to (almost?) completely hide from the public scrutiny the environmental impact behind that line completion that you end up discarding or that Pull Request review that ends with "no comments".
 
 They've carefully designed an UX to hide what is happening under the hood,
-trying to make you believe that it requires similar compute to similar tools you are used to (like that lovely optimized linter written in Rust).
+trying to make you believe that it requires similar compute to the tools you are already used to (like that lovely optimized linter written in Rust).
 
 !!! danger
 
